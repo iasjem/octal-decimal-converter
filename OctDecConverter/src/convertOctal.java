@@ -6,7 +6,7 @@ public class convertOctal {
 	private int convertOctToDec;
 	private String x = "";
 
-	public void getOctal(int getOctal) {
+	public void getDecimal(int getOctal) {
 
 		x = String.valueOf(getOctal);
 

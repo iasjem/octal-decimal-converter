@@ -4,7 +4,7 @@ public class convertDecimal {
 	private String showOctal = "";
 	private int convertDecToOct;
 
-	public void getDecimal(int getDecimal) {
+	public void getOctal(int getDecimal) {
 
 		while (getDecimal > 0) {
 			convertDecToOct = getDecimal % OCTAL_BASE;

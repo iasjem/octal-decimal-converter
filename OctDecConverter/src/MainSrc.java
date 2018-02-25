@@ -1,4 +1,3 @@
-
 /*
  * A simple program that converts octal to decimal and vice versa
  * Please see other comments on project for more information about program
@@ -20,7 +19,8 @@ public class MainSrc {
 		Scanner decimal = new Scanner(System.in);
 		getDecimal = decimal.nextInt();
 
-		convertDecimal.getDecimal(getDecimal);
+		// get the octal value of a decimal
+		convertDecimal.getOctal(getDecimal);
 
 		System.out.print("\n");
 
@@ -32,8 +32,9 @@ public class MainSrc {
 
 		System.out.print("Enter an octal number: ");
 		getOctal = octal.nextInt();
-
-		convertOctal.getOctal(getOctal);
+		
+		// get the decimal value of an octal
+		convertOctal.getDecimal(getOctal);
 
 		octal.close();
 		decimal.close();
